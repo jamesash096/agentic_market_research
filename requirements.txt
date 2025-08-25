@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+yfinance
+pandas
+numpy
+requests
+feedparser
+nltk
+apscheduler
+tzdata
+loguru
+streamlit
+plotly
+python-dotenv

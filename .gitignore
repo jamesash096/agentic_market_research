@@ -1,0 +1,61 @@
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+.ptyhon-version
+
+# --- Test & coverage artifacts ---
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# --- IDE & editor ---
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Secrets & env ---
+.env
+.env.*
+!.env.example            # keep a template if you add one
+.secrets/
+secret.*
+secrets.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# --- Logs & run artifacts ---
+logs/
+*.log
+reports/                 # daily artifacts: run.json, report.md, run.log, zip rotations
+memory.jsonl             # historical memory file (if at repo root)
+
+# --- Data caches (optional) ---
+nltk_data/
+
+# --- Reports
+reports/
